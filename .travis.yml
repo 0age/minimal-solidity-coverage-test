@@ -12,6 +12,6 @@ install:
   - yarn global add coveralls
   - yarn install
 script:
-  - yarn run coverage && cat coverage/lcov.info | coveralls
+  - yarn test && cat coverage/lcov.info | coveralls
 cache:
   yarn: true
