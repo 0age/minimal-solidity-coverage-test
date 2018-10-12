@@ -1,5 +1,6 @@
 {
   "name": "minimal-solidity-coverage",
+  "version": "1.0.0",
   "license": "MIT",
   "dependencies": {
     "coveralls": "^3.0.2",
